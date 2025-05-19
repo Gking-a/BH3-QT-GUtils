@@ -8,7 +8,12 @@
 * Mozilla Public License Version 2.0
 
 ---
-
+# Code Example
+auto resizable=new GScaleResizeable();
+auto child=new GLabeled("gking",resizable,0,0.5,1.0.5);
+resizable->position[child]={0,0,0.5,0.5};
+child.setChildPosition(new QWidget(child),0,0,1,0.7);
+QT:: connect (child,QRightClickable::guiRightClick,this,slotFunc);
 # English
 
 # Utils of DHJ BigHomework3 by gking
