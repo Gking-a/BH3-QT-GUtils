@@ -11,7 +11,6 @@
 #include <iostream>
 #include <QWidget>
 
-#include "GUtil.h"
 namespace  GUtil {
     class GScaleResizable : public QWidget {
     Q_OBJECT
